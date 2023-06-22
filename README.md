@@ -1,3 +1,4 @@
+
 # Proyecto final - Robótica Industrial.
 
 
@@ -34,9 +35,12 @@ Dado que el requerimiento es la optimización de una tarea que se puede bien des
  ### Diseño de las fichas
  
 En el mismo material de la herramienta (acrílico) se diseñan piezas para cumplir con 2 requisitos importantes, uno es el de no ser tan pequeño para que la ventosa sea capaz de generar el vacío necesario al entrar en contacto con la pieza y se pueda levantar. El otro criterio es que su tamaño tampoco sea tan grande para poder entrar en el balde, por lo que la mejor manera de diseñar estas fichas fue de manera circular como se muestra en la imagen a continuación, las cuales tenían un diámetro de 6 cm.
+
 ![image](https://github.com/jhoncale/ProyectoFinal/assets/38961990/c076b54f-89f8-44ad-86ab-a076cfb2146d)
 
 Figura 2. Fichas para levantar con la ventosa
+
+![image](https://github.com/jhoncale/ProyectoFinal/assets/38961990/8fcf37f7-1e34-4f62-a35d-1e9b3feb64ad)
 
 
  ### Metodología para la creación de rutinas Pick & Place
@@ -44,7 +48,10 @@ Figura 2. Fichas para levantar con la ventosa
  Para llevar a cabo el desarrollo de las rutinas que debía seguir el robot IBR 140, se utilizó el software RobotStudio y algunos modelados CAD para poder simular el entorno del robot dentro del programa. 
 Para iniciar la resolución del proyecto fue necesario el modelado del estante (lugar al que tenía que llegar el robot para seleccionar y agarrar las fichas indicadas).
 
+
 ![image](https://github.com/jhoncale/ProyectoFinal/assets/38961990/2d8bd135-0df0-4ac8-a32e-c780fa41dc54)
+
+
 Figura 3. Estantería de madera
 
 Posteriormente, para el área de trabajo de RobotStudio, se modeló una barra guía con el objetivo de tener una superficie y poder acomodar más fácilmente los puntos de trayectoria del robot.
@@ -58,7 +65,9 @@ Figura 4. Guía de trabajo en RobotStudio
 Asi mismo, la ubicación del balde tanto en la zona inferior del robot (suelo), como en la banda transportadora fue de gran importancia para tener una noción de hasta dónde debería llegar la trayectoria del robot diseñada.
 
 
+
 ![image](https://github.com/jhoncale/ProyectoFinal/assets/38961990/337b541a-7765-44e9-8ce3-61f2b5f018b7)
+
 
 Figura 6. Ubicaciones posibles del balde. Banda transportadora y suelo
 
@@ -114,9 +123,11 @@ Figura 10. Extracto del código RAPID, continuación
 Una vez el manipulador haya llegado a la división del estante indicada para recoger la ficha, se hace el accionamiento de la electroválvula (doble) y se esperan 3 segundos para proceder con la rutina. Este tiempo de espera ayudó para asegurar que sí se tomara la ficha de la manera adecuada. 
 Así mismo, para la entrega de la ficha en el balde, primero se posiciona el manipulador cerca del balde, se espera un tiempo y se suelta la ficha. Esto porque, en pruebas anteriores sin un tiempo de espera, el manipulador se corría y hacía que la ficha tuviera movimientos imprevistos que no le daban precisión para entrar en el balde. 
 
+
 ![image](https://github.com/jhoncale/ProyectoFinal/assets/38961990/9900499d-b55e-4b0c-a149-43e183591019)
 
 Figura 9. Extracto del código RAPID, fin del programa
+
 
 Finalmente, se apaga la luz de la lámpara.
 
@@ -145,21 +156,58 @@ Es decir, si se compara el tiempo, al poder trabajar con mayor velocidad el robo
 
 ### planos y fotografias del gripper diseñado
 
+
 ![image](https://github.com/jhoncale/ProyectoFinal/assets/38961990/970d1e00-f5f8-4598-912c-221e003e3b3f)
+
 
 Descarga:
 
+
 [Herramienta+gancho.pdf](https://github.com/jhoncale/ProyectoFinal/files/11828425/Herramienta%2Bgancho.pdf)
 
-![He1 (2)](https://github.com/jhoncale/ProyectoFinal/assets/38961990/1e7dc61a-c570-4202-bf32-3b619bf8ab41)
+
+![image](https://github.com/jhoncale/ProyectoFinal/assets/38961990/d41305b4-99f3-441e-b387-12d9c898db26)
 
 
-### Código en RAPID comentado
+
+### Código en RAPID comentado rutina 1
+
+
+### Código en RAPID comentado rutina 2
+
+
+
+### Código en RAPID comentado rutina 3
 
 ### Videos Practicas
 
 
+https://github.com/jhoncale/ProyectoFinal/assets/38961990/eac9ea50-bf1c-4f78-a1bb-fe7e2439c565
+
+
+
+https://github.com/jhoncale/ProyectoFinal/assets/38961990/0977e3f6-2d6e-45ab-b5c7-4acc791ac598
+
+
 ### Videos Simulación
+
+
+https://github.com/jhoncale/ProyectoFinal/assets/38961990/b699a21c-0a3e-431a-a13d-ef605c1ea5ca
+
+
+https://github.com/jhoncale/ProyectoFinal/assets/38961990/23d31a96-2b1d-4fd9-8a18-9e1661bbe68b
+
+
+https://github.com/jhoncale/ProyectoFinal/assets/38961990/ad7f7f6f-3e10-4cc6-b14b-8e51e5d886f0
+
+### Videos ensayo manual
+
+
+
+https://github.com/jhoncale/ProyectoFinal/assets/38961990/5645f9ab-1016-45e5-b0a1-7da17e7b02ca
+
+
+
 
 
 ## Video Final
