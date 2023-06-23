@@ -389,4 +389,9 @@ https://drive.google.com/file/d/1xLvYPt9U0iRJQcUBBdBOks4ML3qNelqq/view?usp=shari
 [![Alt text](https://img.youtube.com/vi/P5YUQemaV34/0.jpg)](https://www.youtube.com/watch?v=P5YUQemaV34)
 
 ## Link Video Final:
+
 https://www.youtube.com/watch?v=P5YUQemaV34
+
+## Link Video Final op2:
+
+https://drive.google.com/file/d/1Rl18RZfFNBpNjwHtfNowEY_me_8XVd53/view?usp=sharing
