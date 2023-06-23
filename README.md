@@ -237,19 +237,6 @@ PROC main()
     homee;           // Vuelve a la posición de origen.
     BaldeR1;         // posiciona el balde.
     homee;           // Vuelve a la posición de origen.
-    UNO;             // Toma ficha.
-    SETDO DO_01,0;   // Establece la salida DO_01 en 0.
-    SETDO DO_02,1;   // Establece la salida DO_02 en 1.
-    WaitTime 3;      // Espera durante 3 segundos.
-    UNO_;            // Retira la ficha.
-    homee;           // Vuelve a la posición de origen.
-    dejarFichas;     // Deja la ficha en el balde.
-    WaitTime 3;      // Espera durante 3 segundos.
-    SETDO DO_01,1;   // Establece la salida DO_01 en 1.
-    SETDO DO_02,0;   // Establece la salida DO_02 en 0.
-    WaitTime 2;      // Espera durante 2 segundos.
-    homee;           // Vuelve a la posición de origen.
-
     DOS;             // Toma ficha.
     SETDO DO_01,0;   // Establece la salida DO_01 en 0.
     SETDO DO_02,1;   // Establece la salida DO_02 en 1.
@@ -263,11 +250,24 @@ PROC main()
     WaitTime 2;      // Espera durante 2 segundos.
     homee;           // Vuelve a la posición de origen.
 
-    TRES;            // toma ficha.
+    CUATRO;             // Toma ficha.
     SETDO DO_01,0;   // Establece la salida DO_01 en 0.
     SETDO DO_02,1;   // Establece la salida DO_02 en 1.
     WaitTime 3;      // Espera durante 3 segundos.
-    TRES_;           // Retira la ficha.
+    CUATRO_;            // Retira la ficha.
+    homee;           // Vuelve a la posición de origen.
+    dejarFichas;     // Deja la ficha en el balde.
+    WaitTime 3;      // Espera durante 3 segundos.
+    SETDO DO_01,1;   // Establece la salida DO_01 en 1.
+    SETDO DO_02,0;   // Establece la salida DO_02 en 0.
+    WaitTime 2;      // Espera durante 2 segundos.
+    homee;           // Vuelve a la posición de origen.
+
+    UNO;            // toma ficha.
+    SETDO DO_01,0;   // Establece la salida DO_01 en 0.
+    SETDO DO_02,1;   // Establece la salida DO_02 en 1.
+    WaitTime 3;      // Espera durante 3 segundos.
+    UNO_;           // Retira la ficha.
     homee;           // Vuelve a la posición de origen.
     dejarFichas;     // Deja la ficha en el balde.
     WaitTime 3;      // Espera durante 3 segundos.
@@ -294,11 +294,11 @@ PROC main()
     homee;           // Vuelve a la posición de origen.
     BaldeR1;         // posiciona el balde.
     homee;           // Vuelve a la posición de origen.
-    UNO;             // Toma ficha.
+    CINCO;             // Toma ficha.
     SETDO DO_01,0;   // Establece la salida DO_01 en 0.
     SETDO DO_02,1;   // Establece la salida DO_02 en 1.
     WaitTime 3;      // Espera durante 3 segundos.
-    UNO_;            // Retira la ficha.
+    CINCO_;            // Retira la ficha.
     homee;           // Vuelve a la posición de origen.
     dejarFichas;     // Deja la ficha en el balde.
     WaitTime 3;      // Espera durante 3 segundos.
@@ -307,11 +307,11 @@ PROC main()
     WaitTime 2;      // Espera durante 2 segundos.
     homee;           // Vuelve a la posición de origen.
 
-    DOS;             // Toma ficha.
+    CUATRO;             // Toma ficha.
     SETDO DO_01,0;   // Establece la salida DO_01 en 0.
     SETDO DO_02,1;   // Establece la salida DO_02 en 1.
     WaitTime 3;      // Espera durante 3 segundos.
-    DOS_;            // Retira la ficha.
+    CUATRO_;            // Retira la ficha.
     homee;           // Vuelve a la posición de origen.
     dejarFichas;     // Deja la ficha en el balde.
     WaitTime 3;      // Espera durante 3 segundos.
