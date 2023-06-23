@@ -172,12 +172,174 @@ Descarga:
 
 ### Código en RAPID comentado rutina 1
 
+PROC main()
+    WaitDI DI_01,1;  // Espera hasta que la entrada DI_01 sea igual a 1.
+    SETDO DO_03,1;   // Establece la salida DO_03 en 1.
+    homee;           // Mueve el robot a la posición de origen (home).
+    BaldeR;          // Toma el balde de la banda.
+    homee;           // Vuelve a la posición de origen.
+    BaldeR1;         // posiciona el balde.
+    homee;           // Vuelve a la posición de origen.
+    UNO;             // Toma ficha.
+    SETDO DO_01,0;   // Establece la salida DO_01 en 0.
+    SETDO DO_02,1;   // Establece la salida DO_02 en 1.
+    WaitTime 3;      // Espera durante 3 segundos.
+    UNO_;            // Retira la ficha.
+    homee;           // Vuelve a la posición de origen.
+    dejarFichas;     // Deja la ficha en el balde.
+    WaitTime 3;      // Espera durante 3 segundos.
+    SETDO DO_01,1;   // Establece la salida DO_01 en 1.
+    SETDO DO_02,0;   // Establece la salida DO_02 en 0.
+    WaitTime 2;      // Espera durante 2 segundos.
+    homee;           // Vuelve a la posición de origen.
+
+    DOS;             // Toma ficha.
+    SETDO DO_01,0;   // Establece la salida DO_01 en 0.
+    SETDO DO_02,1;   // Establece la salida DO_02 en 1.
+    WaitTime 3;      // Espera durante 3 segundos.
+    DOS_;            // Retira la ficha.
+    homee;           // Vuelve a la posición de origen.
+    dejarFichas;     // Deja la ficha en el balde.
+    WaitTime 3;      // Espera durante 3 segundos.
+    SETDO DO_01,1;   // Establece la salida DO_01 en 1.
+    SETDO DO_02,0;   // Establece la salida DO_02 en 0.
+    WaitTime 2;      // Espera durante 2 segundos.
+    homee;           // Vuelve a la posición de origen.
+
+    TRES;            // toma ficha.
+    SETDO DO_01,0;   // Establece la salida DO_01 en 0.
+    SETDO DO_02,1;   // Establece la salida DO_02 en 1.
+    WaitTime 3;      // Espera durante 3 segundos.
+    TRES_;           // Retira la ficha.
+    homee;           // Vuelve a la posición de origen.
+    dejarFichas;     // Deja la ficha en el balde.
+    WaitTime 3;      // Espera durante 3 segundos.
+    SETDO DO_01,1;   // Establece la salida DO_01 en 1.
+    SETDO DO_02,0;   // Establece la salida DO_02 en 0.
+    WaitTime 2;      // Espera durante 2 segundos.
+    homee;           // Vuelve a la posición de origen.
+
+    Balde1;          // Toma el balde.
+    homee;           // Vuelve a la posición de origen.
+    Balde2;          // Deja el balde en la banda.
+    homee;           // Vuelve a la posición de origen.
+
+    SETDO DO_03,0;   // Establece la salida DO_03 en 0.
+ENDPROC
 
 ### Código en RAPID comentado rutina 2
 
+PROC main()
+    WaitDI DI_01,1;  // Espera hasta que la entrada DI_01 sea igual a 1.
+    SETDO DO_03,1;   // Establece la salida DO_03 en 1.
+    homee;           // Mueve el robot a la posición de origen (home).
+    BaldeR;          // Toma el balde de la banda.
+    homee;           // Vuelve a la posición de origen.
+    BaldeR1;         // posiciona el balde.
+    homee;           // Vuelve a la posición de origen.
+    UNO;             // Toma ficha.
+    SETDO DO_01,0;   // Establece la salida DO_01 en 0.
+    SETDO DO_02,1;   // Establece la salida DO_02 en 1.
+    WaitTime 3;      // Espera durante 3 segundos.
+    UNO_;            // Retira la ficha.
+    homee;           // Vuelve a la posición de origen.
+    dejarFichas;     // Deja la ficha en el balde.
+    WaitTime 3;      // Espera durante 3 segundos.
+    SETDO DO_01,1;   // Establece la salida DO_01 en 1.
+    SETDO DO_02,0;   // Establece la salida DO_02 en 0.
+    WaitTime 2;      // Espera durante 2 segundos.
+    homee;           // Vuelve a la posición de origen.
 
+    DOS;             // Toma ficha.
+    SETDO DO_01,0;   // Establece la salida DO_01 en 0.
+    SETDO DO_02,1;   // Establece la salida DO_02 en 1.
+    WaitTime 3;      // Espera durante 3 segundos.
+    DOS_;            // Retira la ficha.
+    homee;           // Vuelve a la posición de origen.
+    dejarFichas;     // Deja la ficha en el balde.
+    WaitTime 3;      // Espera durante 3 segundos.
+    SETDO DO_01,1;   // Establece la salida DO_01 en 1.
+    SETDO DO_02,0;   // Establece la salida DO_02 en 0.
+    WaitTime 2;      // Espera durante 2 segundos.
+    homee;           // Vuelve a la posición de origen.
+
+    TRES;            // toma ficha.
+    SETDO DO_01,0;   // Establece la salida DO_01 en 0.
+    SETDO DO_02,1;   // Establece la salida DO_02 en 1.
+    WaitTime 3;      // Espera durante 3 segundos.
+    TRES_;           // Retira la ficha.
+    homee;           // Vuelve a la posición de origen.
+    dejarFichas;     // Deja la ficha en el balde.
+    WaitTime 3;      // Espera durante 3 segundos.
+    SETDO DO_01,1;   // Establece la salida DO_01 en 1.
+    SETDO DO_02,0;   // Establece la salida DO_02 en 0.
+    WaitTime 2;      // Espera durante 2 segundos.
+    homee;           // Vuelve a la posición de origen.
+
+    Balde1;          // Toma el balde.
+    homee;           // Vuelve a la posición de origen.
+    Balde2;          // Deja el balde en la banda.
+    homee;           // Vuelve a la posición de origen.
+
+    SETDO DO_03,0;   // Establece la salida DO_03 en 0.
+ENDPROC
 
 ### Código en RAPID comentado rutina 3
+
+PROC main()
+    WaitDI DI_01,1;  // Espera hasta que la entrada DI_01 sea igual a 1.
+    SETDO DO_03,1;   // Establece la salida DO_03 en 1.
+    homee;           // Mueve el robot a la posición de origen (home).
+    BaldeR;          // Toma el balde de la banda.
+    homee;           // Vuelve a la posición de origen.
+    BaldeR1;         // posiciona el balde.
+    homee;           // Vuelve a la posición de origen.
+    UNO;             // Toma ficha.
+    SETDO DO_01,0;   // Establece la salida DO_01 en 0.
+    SETDO DO_02,1;   // Establece la salida DO_02 en 1.
+    WaitTime 3;      // Espera durante 3 segundos.
+    UNO_;            // Retira la ficha.
+    homee;           // Vuelve a la posición de origen.
+    dejarFichas;     // Deja la ficha en el balde.
+    WaitTime 3;      // Espera durante 3 segundos.
+    SETDO DO_01,1;   // Establece la salida DO_01 en 1.
+    SETDO DO_02,0;   // Establece la salida DO_02 en 0.
+    WaitTime 2;      // Espera durante 2 segundos.
+    homee;           // Vuelve a la posición de origen.
+
+    DOS;             // Toma ficha.
+    SETDO DO_01,0;   // Establece la salida DO_01 en 0.
+    SETDO DO_02,1;   // Establece la salida DO_02 en 1.
+    WaitTime 3;      // Espera durante 3 segundos.
+    DOS_;            // Retira la ficha.
+    homee;           // Vuelve a la posición de origen.
+    dejarFichas;     // Deja la ficha en el balde.
+    WaitTime 3;      // Espera durante 3 segundos.
+    SETDO DO_01,1;   // Establece la salida DO_01 en 1.
+    SETDO DO_02,0;   // Establece la salida DO_02 en 0.
+    WaitTime 2;      // Espera durante 2 segundos.
+    homee;           // Vuelve a la posición de origen.
+
+    TRES;            // toma ficha.
+    SETDO DO_01,0;   // Establece la salida DO_01 en 0.
+    SETDO DO_02,1;   // Establece la salida DO_02 en 1.
+    WaitTime 3;      // Espera durante 3 segundos.
+    TRES_;           // Retira la ficha.
+    homee;           // Vuelve a la posición de origen.
+    dejarFichas;     // Deja la ficha en el balde.
+    WaitTime 3;      // Espera durante 3 segundos.
+    SETDO DO_01,1;   // Establece la salida DO_01 en 1.
+    SETDO DO_02,0;   // Establece la salida DO_02 en 0.
+    WaitTime 2;      // Espera durante 2 segundos.
+    homee;           // Vuelve a la posición de origen.
+
+    Balde1;          // Toma el balde.
+    homee;           // Vuelve a la posición de origen.
+    Balde2;          // Deja el balde en la banda.
+    homee;           // Vuelve a la posición de origen.
+
+    SETDO DO_03,0;   // Establece la salida DO_03 en 0.
+ENDPROC
 
 ### Videos Practicas
 
