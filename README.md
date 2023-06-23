@@ -207,11 +207,9 @@ https://github.com/jhoncale/ProyectoFinal/assets/38961990/ad7f7f6f-3e10-4cc6-b14
 https://github.com/jhoncale/ProyectoFinal/assets/38961990/5645f9ab-1016-45e5-b0a1-7da17e7b02ca
 
 
-
-
-
 ## Video Final
 
+[![Alt text](https://img.youtube.com/vi/P5YUQemaV34/0.jpg)](https://www.youtube.com/watch?v=P5YUQemaV34)
 
-##Link Video Final:
+## Link Video Final:
 https://www.youtube.com/watch?v=P5YUQemaV34
