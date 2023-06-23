@@ -346,7 +346,7 @@ ENDPROC
 
 https://github.com/jhoncale/ProyectoFinal/assets/38961990/eac9ea50-bf1c-4f78-a1bb-fe7e2439c565
 
-## Link Video Practicas 1 :
+## Link Video Practica 1 :
 
 https://drive.google.com/file/d/1oFnev54upwZJVqec9BJZPHnk7ruoa0DC/view?usp=sharing
 
@@ -354,13 +354,13 @@ https://drive.google.com/file/d/1oFnev54upwZJVqec9BJZPHnk7ruoa0DC/view?usp=shari
 https://github.com/jhoncale/ProyectoFinal/assets/38961990/0977e3f6-2d6e-45ab-b5c7-4acc791ac598
 
 
-## Link Video Practicas 2:
+## Link Video Practica 2:
 https://drive.google.com/file/d/1oBXAJYnB9Pi0RpYk_sdbtGO2Jzgpy5Zl/view?usp=sharing
 
 
 https://github.com/jhoncale/ProyectoFinal/assets/38961990/bc895c56-8c8e-4b5e-8f59-21ec5178b4ff
 
-## Link Video Practicas 3:
+## Link Video Practica 3:
 
 https://drive.google.com/file/d/1o6IiLWZXW2qHetl45A-ulAo5ej4qDYc9/view?usp=sharing
 
